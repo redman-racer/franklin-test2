@@ -210,6 +210,7 @@ li::before {
   content: "\f000"; /* for example, this would be a blank icon */
   /* Add some styling for the icon */
   font-family: "Font Awesome 5 Free";
+  list-style-type: none;
   font-weight: 900;
   margin-right: 10px;
 }
