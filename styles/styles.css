@@ -205,7 +205,7 @@ main img {
 }
 
 /* Use the ::before pseudo-element to insert the icon before each list item */
-#explore-our-plans li::before {
+li::before {
   /* Use the Font Awesome content value for the desired icon */
   content: "\f000"; /* for example, this would be a blank icon */
   /* Add some styling for the icon */
@@ -213,7 +213,7 @@ main img {
   font-weight: 900;
   margin-right: 10px;
 }
-#explore-our-plans li {
+li {
   list-style-type: none;
 }
 
