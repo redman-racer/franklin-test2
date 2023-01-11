@@ -204,6 +204,17 @@ main img {
   height: auto;
 }
 
+/* Use the ::before pseudo-element to insert the icon before each list item */
+li::before {
+  /* Use the Font Awesome content value for the desired icon */
+  content: "\f000"; /* for example, this would be a blank icon */
+  /* Add some styling for the icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
